@@ -1,0 +1,11 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.logo-name {
+    color: #41A5DE;
+    float: left;
+    margin-top: 1.5rem;
+}
