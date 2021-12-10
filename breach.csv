@@ -1,0 +1,37 @@
+State,Type_of_Breach,Individuals_Affected
+MT,Theft,1251
+MT,"Theft, Loss",37000
+MT,Unauthorized Access/Disclosure,1900
+ID,Loss,5500
+ID,Theft,6900
+OR,Theft,60176
+OR,"Theft, Unauthorized Access/Disclosure",2300
+OR,Unauthorized Access/Disclosure,20881
+OR,"Unauthorized Access/Disclosure, Hacking/IT Incident, Other",4354
+WA,Hacking/IT Incident,85676
+WA,Improper Disposal,750
+WA,Loss,1105
+WA,Other,9315
+WA,Theft,48852
+WA,Unauthorized Access/Disclosure,6450
+WA,"Unauthorized Access/Disclosure, Other",3104
+DE,Loss,948
+DE,Other,24525
+MD,Hacking/IT Incident,9859
+MD,Other,1629
+MD,Theft,78873
+MD,Unauthorized Access/Disclosure,23853
+MD,"Unauthorized Access/Disclosure, Hacking/IT Incident",10766
+WV,Theft,2905
+WV,"Theft, Loss",12563
+WV,Unauthorized Access/Disclosure,6075
+NC,Hacking/IT Incident,27812
+NC,Improper Disposal,2193
+NC,Loss,8137
+NC,Other,10902
+NC,Theft,19724
+NC,"Theft, Improper Disposal, Unauthorized Access/Disclosure",17300
+NC,"Theft, Loss",548
+NC,"Theft, Unauthorized Access/Disclosure",5370
+NC,Unauthorized Access/Disclosure,62668
+NC,"Unauthorized Access/Disclosure, Other",50000
