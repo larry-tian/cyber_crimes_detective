@@ -1,0 +1,33 @@
+/* Home Page */
+.main-content {
+    margin-left: 8rem;
+    margin-right: 8rem;
+}
+
+/* Nav Bar */
+.logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.logo-name {
+    color: #41A5DE;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+.states :hover {
+    fill: red;
+  }
+  
+  .state-borders {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 0.5px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+  }
+  
+  

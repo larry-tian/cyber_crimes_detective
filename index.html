@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cybercrime Detective</title>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<!-- Nav Bar -->
+<nav class="navbar">
+    <ul class="nav-layout">
+      <img class="logo" src="./img/logo.png">
+      <h1 class="logo-name">Cybercrime Detective</h1>
+    </ul>
+</nav>
+
+<!-- Home Page -->
+<body>
+    <div class="main-content">
+        <h1>Location</h1>
+
+        <a href="./map.html">  
+          Click the see the map
+         </a>
+
+        <div class="row">
+            <div class="col-sm-5 col-md-5 col-lg-5">
+              <h1>States Details</h1>
+              <p>PNW vs. South Alantic Region State Details Comparison</p>  
+              <div id="my_dataviz"></div>
+
+
+            </div>
+
+            <div class="col-sm-3 col-md3 col-lg-3">
+              <h1>Type</h1>
+              <p>Please select a type to see the trend</p>
+              <input type="radio" id="theft" name="type" value="Theft" onchange="onTypeChanged()">
+              <label for="theft">Theft</label><br>
+              <input type="radio" id="loss" name="type" value="Loss" onchange="onTypeChanged()">
+              <label for="loss">Loss</label><br>
+              <input type="radio" id="other" name="type" value="Other" onchange="onTypeChanged()">
+              <label for="other">Other</label><br>
+              <input type="radio" id="hack" name="type" value="Hacking/IT Incident" onchange="onTypeChanged()">
+              <label for="hack">Hacking/IT Incident</label><br>
+              <input type="radio" id="unauthorize" name="type" value="Unauthorized Access/Disclosure" onchange="onTypeChanged()">
+              <label for="unauthorize">Unauthorized Access/Disclosure</label><br>
+              <input type="radio" id="disposal" name="type" value="Improper Disposal" onchange="onTypeChanged()">
+              <label for="disposal">Improper Disposal</label><br>
+              <input type="radio" id="unknown" name="type" value="Unknown" onchange="onTypeChanged()">
+              <label for="disposal">Unknown</label>
+            </div>
+  
+            <div class="col-sm-3 col-md-3 col-lg-3">
+              <h1>Trend</h1>
+              <p>See the overall trend with a glance</p>  
+
+              <!-- Scatter Chart -->
+              <div id="scatter-chart"></svg>
+                
+
+            </div>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="./d3-tip.js"></script>
+
+<script src="./scatter.js"></script>
+<script src="./bar.js"></script>
+</html>
